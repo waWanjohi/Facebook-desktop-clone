@@ -1,4 +1,5 @@
 
+import { Container } from '@material-ui/core';
 import './App.css';
 import Feed from './components/feed/Feed';
 import Header from './components/header/Header';
@@ -16,7 +17,7 @@ function App() {
 
       {!user ? <Login /> : (
         <>
-          <Header />
+        <Header />
           <div className="app__body">
             <Sidebar />
             <Feed />

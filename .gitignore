@@ -27,3 +27,6 @@ yarn-error.log*
 src/firebase.js
 src/logo.jpg
 src/logo.svg
+.firebase/
+.firebaserc
+firebase.json
